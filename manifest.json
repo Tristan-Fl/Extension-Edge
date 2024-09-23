@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Générateur de mot de passe Edge",
+  "version": "1.0",
+  "description": "Un générateur de mot de passe sécurisé pour Edge",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "clipboardWrite"
+  ]
+}
